@@ -8,7 +8,7 @@ pipeline {
 			steps {
 			sh '''
 				java -version
-                                sudo docker-compose up
+                                sudo docker-compose up -d
 				echo "Docker compose successful"
 			'''
 			 }
