@@ -8,7 +8,7 @@ pipeline {
 			steps {
 			sh '''
 				java -version
-				devsecops_automate/magento2/docker-magento/docker-compose up
+                                run.sh
 				echo "Docker compose successful"
 			'''
 			 }
