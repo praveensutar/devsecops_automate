@@ -9,7 +9,7 @@ echo  "##Docker building and launching successfully completed...."
 
 echo "### ........"
 echo "### Building the Clair Scanner"
-cd /clair_utility/
+cd ./clair_utility/
 sudo docker-compose up -d
 
 
