@@ -17,7 +17,7 @@ pipeline {
 			steps {
                          sh '''
 			         echo  "### Loading clair Docker scanner ...."
-			         sudo  execute_clair.sh
+			         sudo bash execute_clair.sh
                                  echo "### Clair Docker Scanning completed...."
                             '''     
 
